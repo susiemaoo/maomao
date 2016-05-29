@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://jiangsu.yizhigong.com/goods/20830.html -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>会员居间管理-推荐会员</title>
+		<link type="text/css" href="css/reset.css" rel="stylesheet" />
+		<link type="text/css" href="css/tea_member.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="wrap_t">
+			<h1 class="wrap-top"><span class="font1">会员管理 </span><i class="iconfont ml5 mr5 font2">&#xe606;</i><span class="font2">会员详情</span></h1>
+			<div class="topline mt15 f-cb">
+				<div class="f-fl">
+					<ul class="iptlist">
+						<li class="mt12">
+							<span class="w1">推荐会员号</span>
+							<input class="w2 ipt" type="text"/>
+							<span class="w3">推荐会员名称</span>
+							<input class="w4 ipt_search" type="text"/>
+							<span class="w5">状态</span>
+							<select class="w6 select">
+								<option></option>
+							</select>
+						</li>
+					</ul>
+				</div>
+				<div class="f-fr pt15 pr20">
+					<a class="btn btn1">查询</a>
+					<a class="btn btn2 ml20">重置</a>
+				</div>
+			</div>
+			<div class="topline mt15 mb15"></div>
+			<div class="infolist">
+				<div class="infotitle">会员信息</div>
+				<div class="infomain">
+					<ul>
+						<li><span class="infoleft">会员号</span><span>5005</span></li>
+						<li><span class="infoleft">会员名称</span><span>富兰克林的魔法森林</span></li>
+					</ul>
+				</div>
+			</div>
+			<h1 class="mt15 ml20">推荐会员信息</h1>
+			<div class="mt15 mb15 pl20 pr20 f-cb">
+				<div class="f-fl">
+					<a class="btn btn3" id="operation">批量操作<i class="i-trangle"></i></a>
+					<div class="opt-nav">
+						<ul>
+							<li class="delate"><a>删除</a></li>
+							<li><a>成长指数统计</a></li>
+							<li><a>换手率统计</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="f-fr">
+					<a class="btn btn5 mr10">+ 推荐新增会员</a>
+					<a class="btn btn4">报表导出</a>
+				</div>
+			</div>
+			<div class="tableList" style="padding-top: 10px;">
+				<table>
+					<tr>
+						<th width="10%"><input type="checkbox" class="checkall"> ID</th>
+						<th width="8%">会员编号</th>
+						<th width="16%">会员名称</th>
+						<th width="15%">状态</th>
+						<th width="18%">推荐经纪会员</th>
+						<th class="w6">居间</th>
+						<th width="13%">可用资金（元）</th>
+					</tr>
+					<tr class="tlist">
+						<td><input type="checkbox" class="checkit"> 1</td>
+						<td class="color1">5000</td>
+						<td class="color1">富兰克林</td>
+						<td>正常</td>
+						<td>3</td>
+						<td>4</td>
+						<td>123,456.00</td>
+					</tr>
+					<tr class="tlist">
+						<td><input type="checkbox" class="checkit"> 1</td>
+						<td class="color1">5000</td>
+						<td class="color1">富兰克林</td>
+						<td>正常</td>
+						<td>3</td>
+						<td>4</td>
+						<td>123,456.00</td>
+					</tr>
+					<tr class="tlist">
+						<td><input type="checkbox" class="checkit"> 1</td>
+						<td class="color1">5000</td>
+						<td class="color1">富兰克林</td>
+						<td>正常</td>
+						<td>3</td>
+						<td>4</td>
+						<td>123,456.00</td>
+					</tr>
+					<tr class="tlist">
+						<td><input type="checkbox" class="checkit"> 1</td>
+						<td class="color1">5000</td>
+						<td class="color1">富兰克林</td>
+						<td>正常</td>
+						<td>3</td>
+						<td>4</td>
+						<td>123,456.00</td>
+					</tr>
+				</table>
+				<p class="all-price"><span class="sp1">共计</span><span class="sp2">102,321,214.00</span></p>
+			</div>
+			<div class="paging">
+				<a class="mr15">首页</a>
+				<a class="mr15">上一页</a>
+				<span>跳转</span>
+				<select class="nub">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+				</select>
+				<span class="mr15">页</span>
+				<a class="mr15">下一页</a>
+				<a class="mr15">末页</a>
+				<span>共13条记录</span>
+			</div>
+			<div class="dialogbox f-dn addmember">
+				<div class="d-title">新增会员关联<a class="close iconfont"></a></div>
+				<div class="d-main">
+					<div class="pt10">
+						<span class="mr10">会员编号</span>
+						<input type="text" class="ipt w180 mr10">
+						<span class="mr10">会员名称</span>
+						<input type="text" class="ipt w180 mr10">
+						<a class="btn btn1">查询</a>
+					</div>
+					<div class="topline mt10 pt15 pb15">
+						<h1>推荐会员</h1>
+					</div>
+					<div class="tableList">
+						<table>
+							<tr class="thlist">
+								<th width="5%"></th>
+								<th width="25%">会员编号</th>
+								<th>会员名称</th>
+								<th width="25%">状态</th>
+							</tr>
+							<tr class="tlist">
+								<td><input type="checkbox" class="checkit"></td>
+								<td class="color1">5000</td>
+								<td class="color1">富兰克林</td>
+								<td>正常</td>
+							</tr>
+							<tr class="tlist">
+								<td><input type="checkbox" class="checkit"></td>
+								<td class="color1">5000</td>
+								<td class="color1">富兰克林</td>
+								<td>正常</td>
+							</tr>
+						</table>
+					</div>
+					<div class="paging">
+						<a class="mr15">首页</a>
+						<a class="mr15">上一页</a>
+						<span>跳转</span>
+						<select class="nub">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+						</select>
+						<span class="mr15">页</span>
+						<a class="mr15">下一页</a>
+						<a class="mr15">末页</a>
+						<span>共13条记录</span>
+					</div>
+					<div class="pb20 f-tac"><a class="btn btn1">确定</a><a class="btn btn2 ml20">取消</a></div>
+				</div>
+			</div>
+			<div class="f-share f-dn"></div>
+		</div>
+		<script type="text/javascript" src="js/jquery.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/tea_public.js" charset="utf-8"></script>
+	</body>
+</html>

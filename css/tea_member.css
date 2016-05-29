@@ -1,0 +1,83 @@
+body{ background: #e5e5e5;}
+.wrap_t{ width: 1160px; padding: 0px 20px; background: #e5e5e5;}
+.wrap_t h1{ font: 16px/1.5 "microsoft yahei"; color: #333; }
+.wrap_t h1.wrap-top{ padding-top: 15px;}
+.wrap_t h1.wrap-top .font1{ color: #000; }
+.wrap_t h1.wrap-top .font2{ color: #666; }
+.wrap_t .select{ padding-left: 10px; height: 34px; line-height: 34px; border: 1px solid #CCC; border-radius: 5px; background-color: #FFF; height: auto\9; padding: 10px 0\9; }
+.wrap_t .ipt{ padding-left: 10px; height: 34px; line-height: 34px; border: 1px solid #CCC; border-radius: 5px; background-color: #FFF;}
+.wrap_t .ipt_search{ padding-left: 10px; height: 34px; line-height: 34px; border: 1px solid #CCC; border-radius: 5px; background:url(../images/search_icon.png) no-repeat 95% 11px #FFF;}
+.topline{ border-top: 1px solid #CCC; }
+.iptlist span,.iptlist input{ display: inline-block; font-size: 14px;}
+.iptlist .w1{ width: 80px; margin-left: 20px;}
+.iptlist .w2{ width: 168px; margin-right: 20px;}
+.iptlist .w3{ width: 100px;}
+.iptlist .w4{ width: 228px; margin-right: 20px;}
+.iptlist .w5{ width: 60px;}
+.iptlist .w6{ width: 118px;}
+.iptlist .w7{ width: 68px; }
+
+.opt-nav{ width: 145px; padding: 10px 0; background: #FFF; border-radius: 5px; box-shadow: 2px 2px 5px #b4b4b4; display: none; position: absolute; }
+.opt-nav li{ height: 40px; padding-left: 20px; cursor: pointer;}
+.opt-nav li:hover{ background: #f3f1f4;}
+.opt-nav li a{ font: 14px/40px "microsoft yahei"; color: #333;}
+
+.tableList{ border-radius: 10px; background: #FFF; padding: 0 20px;}
+.tableList table{ width: 100%;}
+.tableList tr{ border-bottom: 1px solid #CCC;}
+.tableList th{ height: 50px; padding-left: 20px; font:16px/1.5 arial,"microsoft yahei"; color: #5a3f61; font-weight: bold;}
+.tableList td{ height: 60px; padding-left: 20px; font:14px/1.5 arial,simsun; color: #333;}
+.tableList .color1{ color: #640e7a;}
+.tableList .color2{ color: #5a3f61;}
+.tableList .color3{ color: #666; font-weight: 300;}
+.tableList .tlist:hover{ border: 1px solid #CCC; background: #f3f1f4;}
+.tableList .tlist-hover{ border: 1px solid #CCC; background: #f3f1f4;}
+.tableList .all-price{  padding: 15px 0 25px 0; text-align: right;}
+.tableList .all-price .sp1{ color: #5a3f61; font: 16px/1.5 "microsoft yahei"; margin-right: 5px;}
+.tableList .all-price .sp2{ color: #ff9900; font: 16px/1.5 arial; margin-right: 10px;}
+.tableList .thlist{ border-top: 1px solid #CCC; background: #f5f5f5;}
+
+.wrap_t .btn:hover{ box-shadow: 2px 2px 2px #CCC;}
+.wrap_t .btn1{ display: inline-block; vertical-align: middle; text-align: center; cursor: pointer; width: 80px; height: 36px; font: 14px/36px "microsoft yahei"; background: #640e7a; color: #FFF; border-radius: 8px;}
+.wrap_t .btn2{ display: inline-block; vertical-align: middle; text-align: center; cursor: pointer; width: 78px; height: 34px; font: 14px/34px "microsoft yahei"; background: #FFF; color: #333; border: 1px solid #CCC; border-radius: 8px;}
+.wrap_t .btn3{ display: inline-block; vertical-align: middle; text-align: center; cursor: pointer; width: 120px; height: 36px; font: 14px/36px "microsoft yahei"; background: #640e7a; color: #FFF; border: 1px solid #CCC; border-radius: 8px; }
+.wrap_t .btn4{ display: inline-block; vertical-align: middle; text-align: center; cursor: pointer; width: 120px; height: 36px; font: 14px/36px "microsoft yahei"; background: #3399ff; color: #FFF; border-radius: 8px; }
+.wrap_t .btn5{ display: inline-block; vertical-align: middle; text-align: center; cursor: pointer; width: 120px; height: 36px; font: 14px/36px "microsoft yahei"; background: #ff9900; color: #FFF; border-radius: 8px; }
+.wrap_t .i-trangle{ border: 4px solid transparent; border-top: 6px solid #FFF; display: inline-block; vertical-align: middle; margin-left: 10px;}
+
+.paging{ text-align: center; padding: 15px 0;}
+.paging a,.paging span{ font: 14px/1.5 arial,simsun; color: #333;}
+.paging a:hover{ color: #4881e9;}
+.paging .nub{ margin: auto 5px; width: 60px; height: 35px; border: 1px solid #CCC; border-radius: 4px; }
+
+.infolist .infotitle{ font: 16px/60px "microsoft yahei"; color: #333; height: 60px; background: #FFF; padding-left: 20px;}
+.infolist .infomain{ padding: 10px 20px; background: #f5f5f5;}
+.infolist .infomain li{ font: 14px/60px arial,simsun;}
+.infolist .infomain .infoleft{ display: inline-block; width: 100px;}
+
+.dialogbox{ position: fixed; z-index: 800; box-shadow: 2px 2px 20px #000; top: 50%; left: 50%;}
+.dialogbox .d-title{ background: #332642; color: #FFF; height: 48px; font: 16px/48px "microsoft yahei" bold; border-top-left-radius: 10px; border-top-right-radius: 10px; padding-left: 20px;}
+.dialogbox .d-main{ border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; background: #FFF; padding: 0px 20px;}
+.dialogbox .d-main .tableList{ padding: 0px;}
+
+.addmember{ width: 680px; margin: -230px auto auto -340px;}
+
+.mt12{ margin-top: 12px;}
+.mt24{ margin-top: 24px;}
+.ml30{ margin-left: 30px;}
+.mr45{ margin-right: 45px;}
+.pt70{ padding-top: 70px;}
+.pb50{ padding-bottom: 50px;}
+.w300{ width: 300px;}
+.w248{ width: 248px;}
+.w180{ width: 180px;}
+.w170{ width: 170px;}
+.w140{ width: 140px;}
+.w110{ width: 110px;}
+.w90{ width: 90px;}
+.w80{ width: 80px;}
+.w70{ width: 70px;}
+.w60{ width: 60px;}
+.w40{ width: 40px;}
+
+
